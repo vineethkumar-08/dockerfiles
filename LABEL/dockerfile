@@ -4,4 +4,5 @@ RUN dnf install nginx -y
 CMD ["nginx", "-g" ,"dsemon -offf;"]
 LABEL COURSE="DOCKER" \
       TRAINER="Vineeth" \
-      DURATION="10HRS"
+      DURATION="10HRS" \
+      AUTHOR="vineethkumar"
