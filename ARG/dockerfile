@@ -1,2 +1,6 @@
 ARG version
 FROM almalinux:${version:-8}
+ARG COURSE="DOCKER" \
+    AUTHOR="Vineeth"
+RUN echo "Author is: ${AUTHOR}"
+CMD ["sleep", "200"]
